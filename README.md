@@ -12,3 +12,12 @@ I propose the following four steps to come up with an optimized strategy of dist
 
 The most challenging part of the process is likely step 1. The National Transportation Safety Board (NTSB) has a massive database where they record all the accidents and incidents in the US, but the problem is HOW they do that. Some information is straightforward (e.g., how many engines the plane had), while other types of information are very hard to use in raw format (e.g., a 100,000-word narrative that the investigator wrote after the investigation). It is true though that with such large amount of information, there is likely a pattern that human eye cannot catch, and that is why this project requires some computational approach. It is impossible for us to solve this problem without the tools we have today for data analysis and data understanding.
 
+For this preliminary proposal, I work with a cleaned subset of the whole database.
+
+For the first plot, I produced an interactive graph that allows the user to choose any number of states and see how the accident number has changed over time for that state. Hovering over a line gives the state abbreviation while highlighting it. This plot helps us get an understanding of how accident numbers changed over the years for each state, which plays a critical role in how we manage resources at these states. California has the historically the highest number of accidents. For this plot, you can play the .mp4 where I show a few features of it, or run the R code yourself!
+
+For the second plot, I did a linear regression to see the drop in accident number per year given the assumptions of regression, which is -17.91, meaning every year we have around 18 accidents on average since 1982.
+
+You can find the codes to produce these plots and a copy of this project text in my github
+https://github.com/Ggeorgal/TDI-Project
+
