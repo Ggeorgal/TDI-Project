@@ -1,6 +1,5 @@
 # TDI-Project
-
-Title: Optimal resource management to reduce the impact of aviation accidents
+ Title: Optimal resource management to reduce the impact of aviation accidents
 
 For this project, I propose to complete a 4-step process that can help optimize available first-responder and employee resources around the country to reduce the impact of aviation accidents. Human life loss and damaged equipment are common outcomes when we hear (or not) about these accidents. Lack of awareness from the public is just the first part of problem. People think such accidents are uncommon or a "one-off" because we only hear them in the news once in a while, but in reality, there are thousands of them happening every year around the 20,000 airports in North America. Most of them are smaller private-type planes. One reason why accidents end with adverse outcome is the lack of or inefficient distribution of resources at these airports. Some airports are untowered, meaning they are completely empty, others have lack of first-responders or equipment. 
 
@@ -19,5 +18,6 @@ For the first plot, I produced an interactive graph that allows the user to choo
 For the second plot, I did a linear regression to see the drop in accident number per year given the assumptions of regression, which is -17.91, meaning every year we have around 18 accidents on average since 1982.
 
 You can find the codes to produce these plots and a copy of this project text in my github
-https://github.com/Ggeorgal/TDI-Project
+https://github.com/Ggeorgal/TDI-Project.git
 
+As part of the program, I will complete the rest of the steps of the project. I will first do more analysis with the dataset by including more variables (estimated 10 hours of work), use a more complete regression with all the factors of the database (est. 5 hours), do a basic search for resource availability (such as employees per state, est. 4 hours of work), and lastly use optimization to allocate the resources properly within each state (est. 6 hours of work).
